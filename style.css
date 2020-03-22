@@ -1,0 +1,262 @@
+body{
+	background-color: rgb(240, 145, 158);
+	color:#555;
+	font-family:cursive;
+	font-size:16px;
+	line-height:1.6em;
+    margin:0;
+    color: purple;
+    
+}
+h1{
+    color: navy;
+}
+#navbar{
+    display: flex;
+    margin-top: 50px;
+}
+#navbar ul{
+    padding :  0
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+
+.Ezewev {
+    text-decoration: solid;
+    color: navy;
+    display: inline;
+    font-size: 70px;
+    font-family: cursive;
+    
+}
+.site_logo {
+    width: 15%;
+    float: left;
+    color:purple;
+    font-size:50px;
+    padding: 15px;
+    padding-left: 270px;
+    flex: 2;
+}
+.menu-area{
+    flex: 5;
+}
+.menu_option li {
+    list-style-type: none;
+    
+  }
+.menu_option a{
+    font-size: 30px;
+    font-weight: bold;
+    color: purple;
+    font-size: 18px;
+    font-style: normal;
+    font-family: cursive;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 13px;
+}
+
+.hire{
+    
+    border: none;
+    margin-left: 25px;
+    margin-right: 105px;
+    padding: 15px;
+    text-align: center;
+    border-radius:40px;
+    background: purple;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+.part{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+
+.part1_write{
+    padding-top: 12%;
+    text-align: center;
+    font-family: cursive;
+    flex: 1;
+    
+}
+
+.part1_image img{
+    padding-left: 5%;
+    padding-top: 5%;
+    flex: 1;
+    height: 500px;
+    width: 600px;
+   
+}
+
+.Freelances{
+    font-weight: bold;
+    text-align: center;
+    color:purple;
+    font-family: cursive;
+}
+
+.freelance_desp{
+    color:navy;
+    text-align: center;
+    padding: 5px 370px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#design {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.card img {
+    display: block;
+   
+}
+.image{
+    margin: 43px;
+    height: 150px;
+}
+.card {
+
+    
+    transition: 0.3s;
+    flex:1;
+    position: relative;
+    
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.5s ease-in-out;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 8px 5px rgba(0,0,0,0.2);
+}
+#why_hire {
+    display: flex;
+    padding: 85px 230px;
+}
+
+.boy {
+    flex:1;
+    background-size: cover;
+}
+.boy_text {
+    padding-left:0px;
+    flex: 1;
+}
+
+.featured{
+    display: inline-flex;
+    
+}
+
+.featured_in{
+    padding-left: 225px;
+    padding-right: 225px;
+    margin-right: 28px;
+    margin-top: 10px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.featured_text {
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+    color: purple;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.form_name{
+    display: flex;
+}
+input[type=text] {
+    padding: 20px 30px;
+    margin: 5px 12px;
+    border-radius: 40px;
+    border : 1px solid purple;
+    display: inline;
+
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=email] {
+    padding: 20px 30px;
+    margin: 5px 12px;
+    border-radius: 40px;
+    width: 80%;
+    border: 1px solid purple;
+}
+input[type=email]:focus {
+    background-color: lightblue;
+}
+
+#message{
+    height: 70px;
+    padding: 20px 30px;
+    margin: 5px 12px;
+    border-radius: 40px;
+    width: 80%;
+    border: 1px solid purple;
+    
+}
+
+#message:focus{
+    background-color: rgba(250, 253, 70, 0.87);
+}
+
+#courses{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 36px;
+}
+.courses{
+    text-align: center;
+    display: flex;
+   
+    
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.courses li{
+    text-align: left;
+}
+
+.courses img{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+}
